@@ -4,8 +4,8 @@ in the chat room.  To join the chat room, open a terminal window and type the fo
 
 ______________________________________________________________________________________
 
-python
->>>import socke
+C:\python
+>>>import socket
 >>>s = socket.socket()
 >>>s.connect(("10.0.1.10", 5000))
 
