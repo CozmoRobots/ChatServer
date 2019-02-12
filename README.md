@@ -1,8 +1,6 @@
 # ChatServer
 This is the python chat server script that is run on our raspberry pi.  It allows users to send messages to all other devices
-in the chat room.  To join the chat room, open a terminal window and type the following:
-
-Instructions
+in the chat room.  To join the chat room, open a terminal window and do the following:
 
 First, start python
 
@@ -19,3 +17,5 @@ python 2.7:    >>>s.sendall("Put your message here")
 python 3.X:    >>>s.sendall(b"Put your message here")
 
 To receive messages:    >>>s.recv(4048)
+
+To close the socket:    >>>s.close()
