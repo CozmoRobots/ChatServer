@@ -13,16 +13,19 @@ import socket
 #creating a dictionary with the MAC addresses of the Dash buttons and the
 #message sent on the chat server as key:value pairs
 macs = {
-    '7475483bfbd2' : 'maxwell',
-    '10ae60fa281c' : 'mac_cheese',
-    'a002dc968e5c' : 'elements',
-    '6837e9828f7b' : 'emergency',
-    '74c246e0926d' : 'gatorade',
-    '6837e90c4dd2' : 'poof',
-    'fca667794a5e' : 'sky',
-    '74c246c46424' : 'cottonelle',
-    'fca667d30173' : 'quest',
-    'f0272d7a0cd7' : 'kitty'
+    '7475483bfbd2' : 'maxwell;',
+    '10ae60fa281c' : 'mac_cheese;',
+    'a002dc968e5c' : 'elements;',
+    '6837e9828f7b' : 'emergency;',
+    '74c246e0926d' : 'gatorade;',
+    '6837e90c4dd2' : 'poof;',
+    'fca667794a5e' : 'sky;',
+    '74c246c46424' : 'cottonelle;',
+    'fca667d30173' : 'quest;',
+    'f0272d7a0cd7' : 'kitty;',
+    'ac63beb4c7f0' : 'human;',
+    '44650d367eff' : 'mashup;',
+    '40b4cdc4c183' : 'temptation;'
 }
 
 rawSocket = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.htons(0x0003))
